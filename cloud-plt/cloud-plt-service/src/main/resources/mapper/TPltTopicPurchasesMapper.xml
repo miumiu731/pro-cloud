@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cloud.plt.mapper.TPltTopicPurchasesMapper">
+
+
+  <sql id="Base_Column_List">
+      a.id AS id,
+      a.srm_id AS srmId,
+      a.topic_name AS topicName,
+      a.company_id AS companyId,
+      a.company_name AS companyName,
+      a.application_user_id AS applicationUserId,
+      a.application_user AS applicationUser,
+      a.application_time AS applicationTime,
+      a.application_type AS applicationType,
+      a.attachment AS attachment,
+      a.description AS description,
+      a.amount AS amount,
+      a.type AS type,
+      a.create_by AS createBy,
+      a.create_date AS createDate,
+      a.update_by AS updateBy,
+      a.update_date AS updateDate,
+      a.remarks AS remarks,
+      a.del_flag AS delFlag
+  </sql>
+</mapper>
